@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+}
+.point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.redscore {
+  color: red;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.bluescore {
+  font-size: 50px;
+  color: blue;
+  font-family: fantasy;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  display: flex;
+  width: 50vw;
+  background-color: red;
+  height: 90vh;
+}
+
+.blue {
+  display: flex;
+  width: 50vw;
+  background-color: blue;
+  height: 90vh;
+}
+
+button {
+  width: 10%;
+  height: 30px;
+  font-size: 20px;
+  background-color: gray;
+  font-family: fantasy;
+  position: fixed;
+  left: 45%;
+}
