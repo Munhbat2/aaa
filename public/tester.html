@@ -25,8 +25,24 @@
         0%   {background-color:yellow; left:-20%; top:100px;}
         100%  {background-color:transparent; left:110%; top:0px;}
     }
+    .moon{
+        position: relative;
+        left:-80px;
+        top:20px;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        background-color: #4b5263;
+        animation: moona 20s infinite;
+        position: relative;
+    }
+    @keyframes moona{
+        0%   {background-color:#e6e6fa; left:-40%; top:100px;}
+        100%  {background-color:transparent; left:110%; top:0px;}
+    }
 </style>
 <body>
     <div class="sun"></div>
+    <div class="moon"></div>
 </body>
 </html>
